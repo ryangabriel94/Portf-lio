@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background: rgb(34,193,195) no-repeat;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(224,45,253,1) 100%) no-repeat;
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+}
+
+.color-main-icon {
+    color: white!important;
+    font-size: 25px!important;
+}
+
+
+
+#angry-icon {
+    color: white;
+    padding: 0 10px;
+    font-size: 40px;
+    align-self: center;
+}
+
+#angry-icon:hover {
+    transition:color 2s ease-out;
+    color: red!important;
+}
+
+header {
+    color: white!important;
+}
+
+html,body, #home {
+    height: 85vh;
+}
+
+.text-size {
+    font-size: 50px!important;
+}
+
+.capa {
+    margin-top: 270px;
+}
+
+.capa-icon {
+    margin-top: 230px !important;
+}
+
+.span-bold {
+    font-weight: bold;
+}
+
+#icon-face {
+    width: 260px !important;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    margin-right: 100px;
+    cursor: pointer;
+    border: 0.1em solid rgb(196, 192, 192);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+}
+
+#icon-face:hover {
+    background: rgba(0, 0, 0, 0.5);
+    transition: background 6s;
+}
+
+.parap-frase {
+    font-size: 18px;
+}
+
+.button-hover:hover{
+    transition: background 3s;
+    background: white;
+}
+
+.row-flex {
+    position: fixed;
+
+}
+
+
+
+
+/* ABOUT ME*/
+
+#about-me {
+    background: white;
+}
+
+#about-me h1, #about-me h2 {
+    color: #a858ec;
+    margin-top: 40px!important;
+
+}
+
+#about-me p {
+    letter-spacing: 1px;
+    margin-top: 30px !important;
+    font-size: 18px;
+}
+
+.img-about-me {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    
+    border: 1px solid #a858ec;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, inset 5px 5px 15px 5px rgba(111,56,255,0); 
+    box-shadow: 0px 10px 13px -7px #000000, inset 5px 5px 15px 5px rgba(111,56,255,0);
+    cursor: pointer;
+    margin-top: 200px !important;
+}
+
+.box-shadow-card:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    cursor: pointer;
+
+}
+
+.card-area-width {
+    height: 200px;
+    object-fit: cover;
+}
+
+.vazio {
+    background: white;
+    height: 66px;
+}
+
+/* THIRD SECTION */
+
+.third-section {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: white;
+
+}
+
+@media screen and (max-width: 600px) {
+    div.card {
+      margin: 30px auto;
+    }
+  }
